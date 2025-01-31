@@ -973,13 +973,16 @@ header {
 }
 /* contact map */
 .contact {
-  width: 100%;
   background-color: #04580567;
-  height: 80vh;
-  padding: 3.5rem;
+  height: 70vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact-container {
-  width: 100%;
+  width: 70%;
+  height: auto;
   background-color: #fff;
   border-radius: 2rem;
   overflow: hidden;
@@ -990,18 +993,18 @@ header {
   justify-content: space-between;
 }
 .contact-info {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  padding-left: 2rem;
+  gap: 1rem;
+  padding-left: 4rem;
 }
 .line {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--prymary-color);
   padding-bottom: 1rem;
-  width: 30rem;
+  width: 20rem;
 }
 
 .line-link {
@@ -1023,9 +1026,7 @@ header {
 }
 
 .map {
-  width: 50%;
-  /* display: flex;
-  align-items: center; */
+  width: 40%;
 }
 .map iframe {
   width: 100%;
@@ -1033,7 +1034,7 @@ header {
 /* footer */
 .footer-grid {
   width: 100%;
-  padding: 3rem;
+  padding: 1rem 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: var(--text-color);
